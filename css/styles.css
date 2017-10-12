@@ -1,0 +1,558 @@
+/*****--GLOBAL--*****/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.55em;
+  font-weight: 400;
+}
+
+/*****----NAVIGATION----*****/
+
+
+nav {
+  width: 100%;
+  background: #6190E8;
+  background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);
+  background: linear-gradient(to right, #A7BFE8, #6190E8);
+  border: 0.1px solid transparent;
+  box-shadow: 0.5px 2px 5px midnightblue;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: auto;
+  font-size: 1.6em;
+  padding-bottom: 10px;
+}
+
+.name {
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  font-size: 2.2em;
+  color: #353535;
+}
+
+.nav-item {
+  margin-bottom: 6px;
+  width: 97%;
+  max-width: 420px;
+  font-weight: bold;
+  padding-top: 5px;
+  height: 38px;
+}
+
+.nav-item a {
+  color: #353535;
+}
+
+.nav-item a:hover {
+  color: #f9f9f9;
+}
+
+/*******----Profile----*******/
+
+
+#profile {
+  text-align: center;
+}
+
+
+.profile-pic {
+  width: 72%;
+  max-width: 430px;
+  margin: 5%;
+  border-radius: 2%;
+}
+
+#profile p {
+  width: 95%;
+  margin: 0 auto;
+  line-height: 1.4;
+  color: midnightblue;
+}
+
+/*******----Portfolio----*******/
+
+
+#portfolio {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.portfolio-pic {
+  max-width: 480px;
+  width: 100%;
+}
+
+#portfolio p {
+  margin: 0 auto;
+  line-height: 1.4;
+  margin-bottom: 50px;
+}
+
+
+/*******----Bio----*******/
+
+
+#bio {
+  width: 92%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#bio p {
+  width: 95%;
+  max-width: 520px;
+  font-size: 1.03em;
+  margin: 0 auto;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+   
+
+/*******----Contact----*******/ 
+
+#contact {
+  width: 100%;
+  text-align: center;
+  height: 285px;
+  margin-top: 130px;
+}
+
+#contact p {
+  width: 92.5%;
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+.contact-list li {
+  list-style: none;
+  padding-top: 15px;
+  margin: auto;
+  text-align: left;
+}
+
+.contact-list li img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.contact-list li a {
+  text-decoration: none;
+  color: #5466cd;
+}
+
+.contact-list li a:hover {
+  color: #202d75;
+}
+
+/*******----Contact nav----*******/
+
+#contact-nav {
+  margin: auto;
+  border-top: 1px solid #d2d4d3;
+}
+
+#contact-nav h2 {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+#contact-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#contact-nav a:hover {
+  color: midnightblue;
+}
+
+.foot-element1 {
+  float: left;
+}
+
+.foot-element2 {
+  float: right;
+}
+
+.contact-nav-menu {
+  display: none !important;
+}
+
+
+
+/*****************************MEDIA QUERIES*********************************/
+
+
+@media all and (min-width: 320px) {
+    
+  
+/*****----NAVIGATION----*****/
+
+  nav ul {
+    margin-left: -40px;
+  }
+
+/*******----Profile----*******/  
+    
+  #profile {
+    margin-top: 50px;
+  }
+  
+  
+  #profile p {
+    max-width: 520px;
+    font-size: 1.1em;
+  }
+
+/*******----Portfolio----*******/  
+  
+  #portfolio {
+    text-align: center;
+  }
+   
+  #portfolio p {
+    width: 95%;
+    max-width: 520px;
+    font-size: 1.03em;
+  }
+  
+  
+/*******----Contact----*******/  
+
+  #contact p {
+    font-size: 1.03em;
+  }
+
+  .contact-list {
+    margin-top: 20px;
+  }
+
+  .contact-list li {
+    width: 246px;
+  } 
+  
+  .contact-list li img {
+    height: 14px;
+    margin-bottom: -1px;
+  }
+    
+  .contact-list li a {
+    padding-left: 3px;
+  }
+  
+/*******----Contact nav----*******/  
+  
+  
+  #contact-nav {
+    width: 94%;
+    height: 100px;
+    max-width: 520px;
+  }
+    
+  #contact-nav h2 {
+    font-size: 1.17em;
+  }
+  
+  
+}
+
+/********************************************************************************************************************/
+
+@media all and (min-width: 768px) {
+  
+  
+  .clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+  
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  
+  h2 {
+    font-size: 1.58em;
+  }
+  
+
+/*****----NAVIGATION----*****/
+    
+  nav ul {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  
+
+  .nav-item {
+    display: inline-block;
+    background: none;
+    width: 150px;
+  }
+  
+  
+/*******----Profile----*******/
+  
+   
+  #profile {
+    text-align: left;
+    margin: 75px 3.2% 100px 3.2%;
+  }
+  
+  .profile-pic {
+    width: 45%;
+    max-width: 350px;
+    margin: 0 0 0 2%;
+    float: right;
+    height: 200px;
+    display: inline-block;
+  }
+
+  #profile p {
+    width: 53%;
+    max-width: 500px;
+    font-size: 1.16em;
+    display: inline-block;
+    text-align: left;
+    float: right;
+  }
+  
+  
+/*******----Portfolio----*******/  
+  
+  
+  #portfolio {
+    width: 100%;
+  }
+  
+  .pic-wrap1 {
+    width: 45.6%;
+    float: left;
+    margin-left: 3.5%;
+  }
+   
+  .pic-wrap2 {
+    width: 45.6%;
+    float: right;
+    margin-right: 3.5%;
+  }
+  
+  
+  #portfolio p {
+    width: 90%;
+    max-width: 400px;
+    height: 70px;
+  }
+  
+/*********----Bio----**********/
+  
+  
+  #bio p {
+    max-width: 700px;
+    font-size: 1.1em;
+  }
+  
+/*******----Contact----*******/  
+  
+  
+  #contact {
+    height: 350px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-top: 40px;
+  }
+  
+  #contact p {
+    font-size: 1.2em;
+    padding-top: 20px;
+  }
+  
+  .contact-list {
+    margin-top: 50px;
+  }
+  
+  .contact-list li {
+    width: 280px;
+    font-size: 1.2em;
+  }
+  
+  
+  .contact-list li img {
+    height: 15px;
+    margin-bottom: 0;
+  }
+  
+  
+  .contact-list li a {
+    padding-left: 7px;
+  }
+  
+  
+/*******----Contact nav----*******/  
+
+  
+  #contact-nav {
+    width: 92%;
+    height: 140px;
+    max-width: 840px;
+  }
+  
+  
+  #contact-nav h2 {
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+  
+  
+  .contact-nav-menu {
+    display: inherit !important;
+    float: right;
+    width: 60%;
+    max-width: 400px;
+    text-align: right;
+  }
+  
+  .contact-nav-menu h2 {
+    padding-left: 35px;
+  }
+
+  .foot-element2 {
+    display: none !important;
+  }
+
+}
+
+
+
+/********************************************************************************************************************/
+
+@media all and (min-width: 1024px) {
+  
+  
+  
+/*****----NAVIGATION----*****/
+  
+  
+  nav {
+    height: 98.19px;
+  }
+  
+  nav ul {
+    margin-top: 50px;
+    max-width: 1300px;
+  }
+  
+  
+  nav ul li {
+    font-size: 1.42em;
+    display: inline-block;
+  }
+  
+  
+  .name {
+    margin-left: 2.7%;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 2.1em;
+    float: left;
+    text-align: left;
+  }
+  
+  
+  .nav-item {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding-top: 7px;
+  }
+  
+  .nav-item-float {
+    float: right;
+  }
+  
+  
+/*******----Profile----*******/
+  
+  
+  #profile {
+    margin: 68px 2.8% 100px 2.8%;
+  }
+  
+  .profile-pic {
+    width: 44%;
+    max-width: 460px;
+    margin: 0%;
+    height: 255px;
+  }
+  
+
+  #profile p {
+    width: 56%;
+    max-width: 760px;
+    font-size: 1.5em;
+    float: left;
+    padding-right: 30px;
+  }
+  
+  
+/*******----Portfolio----*******/  
+  
+  #portfolio {
+    width: 95%;
+    padding-top: 35px;
+  }
+  
+  
+  .pic-wrap3 {
+    width: 98%;
+    margin: 0 auto;
+  }
+  
+  .pic-wrap1, .pic-wrap2 {
+    width: 30.6666666666666667%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 0%;
+  }
+  
+  
+  #portfolio p {
+    width: 93%;
+    font-size: 1.04em;
+  }
+  
+  
+
+/*******----Contact nav----*******/  
+  
+  #contact-nav {
+    width: 90%;
+    max-width: none;
+  }
+
+}
